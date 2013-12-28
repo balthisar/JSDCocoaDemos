@@ -13,10 +13,10 @@ This project serves as an all-in-one project for various Cocoa classes and demon
 Current Contents Include:
 
 - `ViewsFromNibs`
-	> A simple demonstrion of how to load and use Nib files dynamically instead of building them statically into your application.
+	- A simple demonstrion of how to load and use Nib files dynamically instead of building them statically into your application.
 
 - `NSTextView+JSDExtensions`
-	> An `NSTextView` category that implements wordwrap (or not), line number display, and simple line-character highlighting.
+	- An `NSTextView` category that implements wordwrap (or not), line number display, and simple line-character highlighting.
 
 
 How to Use
