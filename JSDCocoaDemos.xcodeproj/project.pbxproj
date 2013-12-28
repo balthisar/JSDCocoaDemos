@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00E23AA186E930F00F8C576 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E2359186E8ECB00F8C576 /* Cocoa.framework */; };
+		D00E23DB186E936700F8C576 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E2359186E8ECB00F8C576 /* Cocoa.framework */; };
+		D00E242C186E96DE00F8C576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E2425186E96DE00F8C576 /* main.m */; };
+		D00E242D186E96DE00F8C576 /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E2427186E96DE00F8C576 /* View1Controller.m */; };
+		D00E242E186E96DE00F8C576 /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E2429186E96DE00F8C576 /* View2Controller.m */; };
+		D00E2432186E978400F8C576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E2431186E978400F8C576 /* AppDelegate.m */; };
+		D00E2435186E97A200F8C576 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00E2433186E97A200F8C576 /* MainMenu.xib */; };
+		D00E2436186E97B800F8C576 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00E241E186E967700F8C576 /* View1.xib */; };
+		D00E2437186E97BC00F8C576 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00E2420186E967700F8C576 /* View2.xib */; };
+		D00E2441186E9BD800F8C576 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E243C186E9BD800F8C576 /* NoodleLineNumberMarker.m */; };
+		D00E2442186E9BD800F8C576 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E243E186E9BD800F8C576 /* NoodleLineNumberView.m */; };
+		D00E2443186E9BD800F8C576 /* NSTextView+JSDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E2440186E9BD800F8C576 /* NSTextView+JSDExtensions.m */; };
+		D00E2447186E9FC000F8C576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E2444186E9FC000F8C576 /* main.m */; };
+		D00E244C186E9FEA00F8C576 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00E244A186E9FEA00F8C576 /* MainMenu.xib */; };
+		D00E2450186EA04C00F8C576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E244E186EA04C00F8C576 /* AppDelegate.m */; };
+		D00E2454186EA85A00F8C576 /* lorem.txt in Resources */ = {isa = PBXBuildFile; fileRef = D00E2452186EA85A00F8C576 /* lorem.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D00E2359186E8ECB00F8C576 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D00E235C186E8ECB00F8C576 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D00E235D186E8ECB00F8C576 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D00E235E186E8ECB00F8C576 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D00E2378186E8ECB00F8C576 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D00E23A9186E930F00F8C576 /* NSTextView+JSDExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTextView+JSDExtensions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00E23DA186E936700F8C576 /* ViewsFromNibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsFromNibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00E241F186E967700F8C576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = View1.xib; sourceTree = "<group>"; };
+		D00E2421186E967700F8C576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = View2.xib; sourceTree = "<group>"; };
+		D00E2425186E96DE00F8C576 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ViewsFromNibs/main.m; sourceTree = SOURCE_ROOT; };
+		D00E2426186E96DE00F8C576 /* View1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View1Controller.h; path = ViewsFromNibs/View1Controller.h; sourceTree = SOURCE_ROOT; };
+		D00E2427186E96DE00F8C576 /* View1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View1Controller.m; path = ViewsFromNibs/View1Controller.m; sourceTree = SOURCE_ROOT; };
+		D00E2428186E96DE00F8C576 /* View2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View2Controller.h; path = ViewsFromNibs/View2Controller.h; sourceTree = SOURCE_ROOT; };
+		D00E2429186E96DE00F8C576 /* View2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View2Controller.m; path = ViewsFromNibs/View2Controller.m; sourceTree = SOURCE_ROOT; };
+		D00E242A186E96DE00F8C576 /* ViewsFromNibs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ViewsFromNibs-Info.plist"; path = "ViewsFromNibs/ViewsFromNibs-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D00E242B186E96DE00F8C576 /* ViewsFromNibs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ViewsFromNibs-Prefix.pch"; path = "ViewsFromNibs/ViewsFromNibs-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D00E2430186E978400F8C576 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ViewsFromNibs/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D00E2431186E978400F8C576 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ViewsFromNibs/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D00E2434186E97A200F8C576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		D00E2438186E98D000F8C576 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.md; path = ViewsFromNibs/readme.md; sourceTree = SOURCE_ROOT; };
+		D00E243B186E9BD800F8C576 /* NoodleLineNumberMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoodleLineNumberMarker.h; path = Classes/NoodleLineNumberMarker.h; sourceTree = "<group>"; };
+		D00E243C186E9BD800F8C576 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoodleLineNumberMarker.m; path = Classes/NoodleLineNumberMarker.m; sourceTree = "<group>"; };
+		D00E243D186E9BD800F8C576 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoodleLineNumberView.h; path = Classes/NoodleLineNumberView.h; sourceTree = "<group>"; };
+		D00E243E186E9BD800F8C576 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoodleLineNumberView.m; path = Classes/NoodleLineNumberView.m; sourceTree = "<group>"; };
+		D00E243F186E9BD800F8C576 /* NSTextView+JSDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextView+JSDExtensions.h"; path = "Classes/NSTextView+JSDExtensions.h"; sourceTree = "<group>"; };
+		D00E2440186E9BD800F8C576 /* NSTextView+JSDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTextView+JSDExtensions.m"; path = "Classes/NSTextView+JSDExtensions.m"; sourceTree = "<group>"; };
+		D00E2444186E9FC000F8C576 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D00E2445186E9FC000F8C576 /* NSTextView+JSDExtensions-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NSTextView+JSDExtensions-Info.plist"; sourceTree = "<group>"; };
+		D00E2446186E9FC000F8C576 /* NSTextView+JSDExtensions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+JSDExtensions-Prefix.pch"; sourceTree = "<group>"; };
+		D00E244B186E9FEA00F8C576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		D00E244D186EA04C00F8C576 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D00E244E186EA04C00F8C576 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D00E244F186EA04C00F8C576 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		D00E2453186EA85A00F8C576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = lorem.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00E23A6186E930F00F8C576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E23AA186E930F00F8C576 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E23D7186E936700F8C576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E23DB186E936700F8C576 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00E234D186E8ECB00F8C576 = {
+			isa = PBXGroup;
+			children = (
+				D00E235F186E8ECB00F8C576 /* JSDCocoaDemos */,
+				D00E2358186E8ECB00F8C576 /* Frameworks */,
+				D00E2357186E8ECB00F8C576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00E2357186E8ECB00F8C576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00E23A9186E930F00F8C576 /* NSTextView+JSDExtensions.app */,
+				D00E23DA186E936700F8C576 /* ViewsFromNibs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00E2358186E8ECB00F8C576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00E2359186E8ECB00F8C576 /* Cocoa.framework */,
+				D00E2378186E8ECB00F8C576 /* XCTest.framework */,
+				D00E235B186E8ECB00F8C576 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D00E235B186E8ECB00F8C576 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00E235C186E8ECB00F8C576 /* AppKit.framework */,
+				D00E235D186E8ECB00F8C576 /* CoreData.framework */,
+				D00E235E186E8ECB00F8C576 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D00E235F186E8ECB00F8C576 /* JSDCocoaDemos */ = {
+			isa = PBXGroup;
+			children = (
+				D00E23A4186E92B900F8C576 /* Demos */,
+			);
+			path = JSDCocoaDemos;
+			sourceTree = "<group>";
+		};
+		D00E23A4186E92B900F8C576 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				D00E23AB186E930F00F8C576 /* NSTextView+JSDExtensions */,
+				D00E23DC186E936700F8C576 /* ViewsFromNibs */,
+			);
+			name = Demos;
+			sourceTree = "<group>";
+		};
+		D00E23AB186E930F00F8C576 /* NSTextView+JSDExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				D00E244F186EA04C00F8C576 /* readme.md */,
+				D00E244D186EA04C00F8C576 /* AppDelegate.h */,
+				D00E244E186EA04C00F8C576 /* AppDelegate.m */,
+				D00E243A186E9BB900F8C576 /* Classes */,
+				D00E2449186E9FEA00F8C576 /* Base.lproj */,
+				D00E23AC186E930F00F8C576 /* Supporting Files */,
+			);
+			path = "NSTextView+JSDExtensions";
+			sourceTree = SOURCE_ROOT;
+		};
+		D00E23AC186E930F00F8C576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00E2444186E9FC000F8C576 /* main.m */,
+				D00E2445186E9FC000F8C576 /* NSTextView+JSDExtensions-Info.plist */,
+				D00E2446186E9FC000F8C576 /* NSTextView+JSDExtensions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00E23DC186E936700F8C576 /* ViewsFromNibs */ = {
+			isa = PBXGroup;
+			children = (
+				D00E2438186E98D000F8C576 /* readme.md */,
+				D00E2430186E978400F8C576 /* AppDelegate.h */,
+				D00E2431186E978400F8C576 /* AppDelegate.m */,
+				D00E2426186E96DE00F8C576 /* View1Controller.h */,
+				D00E2427186E96DE00F8C576 /* View1Controller.m */,
+				D00E2428186E96DE00F8C576 /* View2Controller.h */,
+				D00E2429186E96DE00F8C576 /* View2Controller.m */,
+				D00E241B186E967700F8C576 /* Base.lproj */,
+				D00E23DD186E936700F8C576 /* Supporting Files */,
+			);
+			path = ViewsFromNibs;
+			sourceTree = "<group>";
+		};
+		D00E23DD186E936700F8C576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00E2425186E96DE00F8C576 /* main.m */,
+				D00E242A186E96DE00F8C576 /* ViewsFromNibs-Info.plist */,
+				D00E242B186E96DE00F8C576 /* ViewsFromNibs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00E241B186E967700F8C576 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D00E2433186E97A200F8C576 /* MainMenu.xib */,
+				D00E241E186E967700F8C576 /* View1.xib */,
+				D00E2420186E967700F8C576 /* View2.xib */,
+			);
+			name = Base.lproj;
+			path = ViewsFromNibs/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		D00E243A186E9BB900F8C576 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D00E243B186E9BD800F8C576 /* NoodleLineNumberMarker.h */,
+				D00E243C186E9BD800F8C576 /* NoodleLineNumberMarker.m */,
+				D00E243D186E9BD800F8C576 /* NoodleLineNumberView.h */,
+				D00E243E186E9BD800F8C576 /* NoodleLineNumberView.m */,
+				D00E243F186E9BD800F8C576 /* NSTextView+JSDExtensions.h */,
+				D00E2440186E9BD800F8C576 /* NSTextView+JSDExtensions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D00E2449186E9FEA00F8C576 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D00E244A186E9FEA00F8C576 /* MainMenu.xib */,
+				D00E2452186EA85A00F8C576 /* lorem.txt */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00E23A8186E930F00F8C576 /* NSTextView+JSDExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00E23D4186E930F00F8C576 /* Build configuration list for PBXNativeTarget "NSTextView+JSDExtensions" */;
+			buildPhases = (
+				D00E23A5186E930F00F8C576 /* Sources */,
+				D00E23A6186E930F00F8C576 /* Frameworks */,
+				D00E23A7186E930F00F8C576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSTextView+JSDExtensions";
+			productName = "NSTextView+JSDExtensions";
+			productReference = D00E23A9186E930F00F8C576 /* NSTextView+JSDExtensions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D00E23D9186E936700F8C576 /* ViewsFromNibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00E2401186E936800F8C576 /* Build configuration list for PBXNativeTarget "ViewsFromNibs" */;
+			buildPhases = (
+				D00E23D6186E936700F8C576 /* Sources */,
+				D00E23D7186E936700F8C576 /* Frameworks */,
+				D00E23D8186E936700F8C576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewsFromNibs;
+			productName = ViewsFromNibs;
+			productReference = D00E23DA186E936700F8C576 /* ViewsFromNibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00E234E186E8ECB00F8C576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jim Derry";
+			};
+			buildConfigurationList = D00E2351186E8ECB00F8C576 /* Build configuration list for PBXProject "JSDCocoaDemos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00E234D186E8ECB00F8C576;
+			productRefGroup = D00E2357186E8ECB00F8C576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00E23A8186E930F00F8C576 /* NSTextView+JSDExtensions */,
+				D00E23D9186E936700F8C576 /* ViewsFromNibs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00E23A7186E930F00F8C576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E2454186EA85A00F8C576 /* lorem.txt in Resources */,
+				D00E244C186E9FEA00F8C576 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E23D8186E936700F8C576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E2436186E97B800F8C576 /* View1.xib in Resources */,
+				D00E2435186E97A200F8C576 /* MainMenu.xib in Resources */,
+				D00E2437186E97BC00F8C576 /* View2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00E23A5186E930F00F8C576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E2442186E9BD800F8C576 /* NoodleLineNumberView.m in Sources */,
+				D00E2441186E9BD800F8C576 /* NoodleLineNumberMarker.m in Sources */,
+				D00E2447186E9FC000F8C576 /* main.m in Sources */,
+				D00E2443186E9BD800F8C576 /* NSTextView+JSDExtensions.m in Sources */,
+				D00E2450186EA04C00F8C576 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E23D6186E936700F8C576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E242D186E96DE00F8C576 /* View1Controller.m in Sources */,
+				D00E242C186E96DE00F8C576 /* main.m in Sources */,
+				D00E242E186E96DE00F8C576 /* View2Controller.m in Sources */,
+				D00E2432186E978400F8C576 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00E241E186E967700F8C576 /* View1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00E241F186E967700F8C576 /* Base */,
+			);
+			name = View1.xib;
+			sourceTree = "<group>";
+		};
+		D00E2420186E967700F8C576 /* View2.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00E2421186E967700F8C576 /* Base */,
+			);
+			name = View2.xib;
+			sourceTree = "<group>";
+		};
+		D00E2433186E97A200F8C576 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00E2434186E97A200F8C576 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D00E244A186E9FEA00F8C576 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00E244B186E9FEA00F8C576 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D00E2452186EA85A00F8C576 /* lorem.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00E2453186EA85A00F8C576 /* Base */,
+			);
+			name = lorem.txt;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00E2385186E8ECB00F8C576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D00E2386186E8ECB00F8C576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D00E23D0186E930F00F8C576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextView+JSDExtensions/NSTextView+JSDExtensions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSTextView+JSDExtensions/NSTextView+JSDExtensions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D00E23D1186E930F00F8C576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextView+JSDExtensions/NSTextView+JSDExtensions-Prefix.pch";
+				INFOPLIST_FILE = "NSTextView+JSDExtensions/NSTextView+JSDExtensions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D00E2402186E936800F8C576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewsFromNibs/ViewsFromNibs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ViewsFromNibs/ViewsFromNibs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D00E2403186E936800F8C576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewsFromNibs/ViewsFromNibs-Prefix.pch";
+				INFOPLIST_FILE = "ViewsFromNibs/ViewsFromNibs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00E2351186E8ECB00F8C576 /* Build configuration list for PBXProject "JSDCocoaDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00E2385186E8ECB00F8C576 /* Debug */,
+				D00E2386186E8ECB00F8C576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00E23D4186E930F00F8C576 /* Build configuration list for PBXNativeTarget "NSTextView+JSDExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00E23D0186E930F00F8C576 /* Debug */,
+				D00E23D1186E930F00F8C576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00E2401186E936800F8C576 /* Build configuration list for PBXNativeTarget "ViewsFromNibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00E2402186E936800F8C576 /* Debug */,
+				D00E2403186E936800F8C576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00E234E186E8ECB00F8C576 /* Project object */;
+}
