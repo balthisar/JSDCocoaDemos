@@ -2,10 +2,8 @@ ViewsFromNibs
 =============
 
 by Jim Derry, <http://www.balthisar.com>
-Written 2003-February for Mac OS X “Jaguar”
-Updated 2013-November (yes, that's 10½ years) for Mac OS X “Mavericks”
-
-*This project is released to the public domain.*
+Copyright © 2003-2013 by Jim Derry. All rights reserved.
+See “Legal Stuff” below for license details.
 
 About
 -----
@@ -15,6 +13,7 @@ This demo simply shows how you can go about loading assembled views from a Nib f
 
 2. You can design “super controls” out of existing controls and put them in a single Nib with their own complex controller class, and then use/instantiate this “super control” on as many separate windows as you want. For example, you could define a table that uses a constant datasource with associated form controls on the same view, with all of the logic in the controller. You can then use this entire codebase on any other forms with very simple instantiation.
 
+
 What’s Involved
 ---------------
 
@@ -22,20 +21,43 @@ You can use the project file from the repository in XCode 5.0 (and above, presum
 
 `AppDelegate.h/.m`
 
-This serves as the application delegate and actually contains the logic for	swapping the Nib-views in and out.
+>This serves as the application delegate and actually contains the logic for swapping the Nib-views in and out.
 
 `MainMenu.nib`
 
-Contains the main window as well as well as menus and other goodies	`MainMenu.nib` usually does.
+>Contains the main window as well as well as menus and other goodies `MainMenu.nib` usually does.
 
 `View1.nib` and `View2.nib`
 
-Contain the views that will be swapped in the main window program.
+>Contain the views that will be swapped in the main window program.
 
 `View1Controller.h/.m` and `View2Controller.h/.m`
 
-Contain the respective controller classes (`View1` and `View2`) that make this	work. Each controller class has some simple controller logic just to demonstrate them.
+>Contain the respective controller classes (`View1` and `View2`) that make this	work. Each controller class has some simple controller logic just to demonstrate them.
+
 
 Why This is For You
 -------------------
 I hope to save you the trouble and time that it took me to figure out how to do this.
+
+
+History
+-------
+
+- Written 2003-February for Mac OS X “Jaguar”
+- Updated 2013-November (yes, that's 10½ years) for Mac OS X “Mavericks”
+
+
+Legal Stuff
+-----------
+by Jim Derry, <http://www.balthisar.com>
+Copyright © 2003-2013 by Jim Derry. All rights reserved.
+
+*All files in this project are released according to the MIT license.*
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
